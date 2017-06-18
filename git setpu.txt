@@ -1,0 +1,46 @@
+some important code in cmd.....
+git -- version 			- to check the version of git u r using........
+ cd desktop 			to go to desktop.....
+dir 			to check the folder n file
+cd .. 			to go back to desktop 
+mkdir nce   			 to create dir folder
+cd nce 			to go to nce folder
+dir 			to check the directory of nce folder 
+
+to setup git 
+open  the folder u create
+right click
+gitback here click
+git config --global user.name "sandeep"
+git config -- global user.email "thapasandeep502@gmail.com"
+git config -- list 
+ to knw for git 
+user.name sandeep
+user.email thapasandeep502@gmail.com
+to clear the screen clear type
+git branch -- to display branch 
+
+
+git work flow diagram
+
+working directory ----------> staging area-------> local repo-------->remote repo
+	-------> git add
+			----------->git commit
+						----------------> git push
+						<-----------------git push
+<---------------------------------------------------git checkout
+<-----------------------------------------------------git merge
+
+to initilized git file 
+git init ----------------- to create git file
+git status    ---------------- to check the status
+git add file name      ---------------- to track in gir
+git commit  ----------------to add in local repo
+
+new topics
+
+git branching
+
+1. master banch------------ we donot work on it. we only merge the code at the final state. it is create by defaultly. it is production level code. it is run on the server. 
+2.dev branch------------- we dont work on it. the developer only test the code on this branch. after this developer push the code in master branch
+3. feathersbranch---------it work on the specifics branch. in this branch the code form the dev are used here.   the merge request is snd to dev after completing the code.
